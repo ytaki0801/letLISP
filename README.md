@@ -8,7 +8,7 @@ It has Scheme-like reserved words but just several Pure-oriented LISP syntax and
 
 * S-expressions are accepted with parenthesis enclosing and space separating, NOT dot notation for cdr of conscells because of implementation in some languages by using recursive array structures.
 * Special forms
-	* `named-let` with dynamic scope and Lisp-1.
+	* named-`let` with dynamic scope and Lisp-1.
 	* `if` as conditional operator. The false-clause must be provided.
 	* `quote` same as single-quotation.
 * Built-in functions for list and integer processing
