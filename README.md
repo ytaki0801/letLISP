@@ -12,7 +12,7 @@ This project is aimed to define and implement a minimum LISP interpreter for beg
 	* `if` as conditional operator. The false-clause must be provided.
 	* `quote` same as single-quotations.
 * Built-in functions for list and integer processing
-	* `cons`, `car`, `cdr` and `pair?` for lists and atoms, `eq?` for atoms
+	* `cons`, `car`, `cdr`, `pair?` and `eq?` for lists and/or atoms
 	* `+`, `-`, `*`, `quotient` and `remainders` for integers
 	* `<` and `=` for integers, Boolean values are NOT supported though
 	* `read` and `write` for S-expressions
