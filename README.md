@@ -15,7 +15,7 @@ This project is aimed to define and implement a minimum LISP interpreter for beg
 	* `cons`, `car`, `cdr` and `pair?` for lists and atoms, `eq?` for atoms
 	* `+`, `-`, `*`, `quotient` and `remainders` for integers
 	* `<` and `=` for integers, Boolean values are NOT supported though
-        * `read` and `write` for S-expressions
+	* `read` and `write` for S-expressions
 
 ## Sample codes
 
