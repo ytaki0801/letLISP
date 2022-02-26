@@ -4,22 +4,22 @@ This project is aimed to define and implement a minimum LISP interpreter for beg
 
 ## Language Specification
 
-It has Scheme-like reserved words but just several Pure-oriented LISP syntax and built-in functions, including dynamic-scope named-let. Source codes are mostly running in Scheme implementations too, although the named-let must be supposed in dynamic-scope variable binding system.
+`letLISP` has Scheme-like reserved words but just several Pure-oriented LISP syntax and built-in functions, including dynamic-scope named-let. Source codes are mostly running in Scheme implementations too, although the named-let must be supposed in dynamic-scope variable binding system.
 
 * S-expressions are accepted with parenthesis enclosing and space separating, NOT dot notation for cdr of conscells because of implementation in some languages by using recursive array structures.
 * Special forms
 	* named-`let` with dynamic scope and Lisp-1.
 	* `if` as conditional operator. The false-clause must be provided.
-	* `quote` same as single-quotation.
+	* `quote` same as single-quotations.
 * Built-in functions for list and integer processing
 	* `cons`, `car`, `cdr` and `pair?` for lists and atoms, `eq?` for atoms
 	* `+`, `-`, `*`, `quotient` and `remainders` for integers
-	* `<` and `=` for integers. boolean values are NOT supported.
+	* `<` and `=` for integers, Boolean values are NOT supported though
         * `read` and `write` for S-expressions
 
 ## Sample codes
 
-letLISP has no global environment so dynamic-scope named-let is only the method to define recursion or loop. See `samples` directory for more sample codes.
+`letLISP` has no global environment so dynamic-scope named-let is only the method to define recursion or loop. See `samples` directory for more sample codes.
 
 ```
 $ python3 letLISP.py 
